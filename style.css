@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, 
+a, abbr, acronym, address, big, cite, code, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, 
+small, strike, strong, sub, sup, tt, var, 
+b, u, i, center, 
+dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td { 
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+} 
+html, body{
+	height: 100%;
+}
+body{ 
+	font-family: Arial;
+	color: black;
+}
+a {
+	color: #000;
+}
+a:hover{
+	text-decoration: none;
+}
+img{
+	border: 0;
+}
+
+.b_conteiner{
+	width: 100%;
+	min-height: 100%;
+}
+.b_band{
+	width: 960px;
+	min-height: 400px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+/* header begin */
+.b_header{
+	width: 100%;
+	height: 250px;
+	border: 1px solid black;
+	position: relative;
+}
+/* header end */
+
+/* main begin */
+.b_maincontent{
+	min-height: 100px;
+	border: 1px solid blue;
+	overflow: hidden;
+}
+.video{
+	width: 400px;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	margin-left: 50px;
+}
+/* main end */
+.b_clear{
+	clear: both;
+	height: 100px;
+}
+
+/* footer begin */
+.b_footer{
+	width: 960px;
+	height: 100px;
+	margin: -100px auto 0;
+	border: 1px solid black;
+	position: relative;
+}
+.b_copyright{
+	width: 250px;
+	text-align: right;
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	border: 1px dotted black;
+}
+	.b_copyright a{
+		color: #000;
+		text-decoration: underline;
+	}
+	.b_copyright a:hover{
+		text-decoration: none;
+	}
+.b_contacts{
+	width:200px;
+	position: absolute;
+	left: 50px;
+	bottom: 20px;
+	border: 1px dotted black;
+}
+	.b_contacts a{
+		color: #000;
+		text-decoration: underline;
+	}
+	.b_contacts a:hover{
+		text-decoration: none;
+	}
+/* footer end */

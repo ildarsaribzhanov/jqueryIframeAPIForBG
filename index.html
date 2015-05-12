@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Документ без названия</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://www.youtube.com/iframe_api"></script>
+	<script type="text/javascript" src="js/jquery.ytiframeapi.js"></script>
+
+</head>
+
+<body>
+<div class="b_conteiner">
+<!--band begin-->
+<div class="b_band">
+
+	<!--header begin-->
+	<div class="b_header"></div>
+	<!--header end-->
+
+	<!--main begin-->
+	<div class="b_maincontent">
+		
+		<div class="video" data-video="rTJXb4PNUyg"></div>
+
+		<div class="video" data-video="3_8u_sWKqYg"></div>
+
+	</div>
+	<!--main end-->
+	<script>
+	$(document).ready(function(){
+		$('.video').YTIframeApi({
+			classVideo: '.video',
+			ratio     : 16 / 9,
+			attr      :  'data-video'
+		});
+	});
+	</script>
+
+	</div>
+<!--band end-->
+
+<div class="b_clear"></div>
+</div>
+<!--footer begin-->
+<div class="b_footer">
+
+		<div class="b_copyright">
+		<a href="http://sawtech.ru">сайт разработан в студии <b>saw</b>tech</a>
+		</div>
+		
+		<div class="b_contacts">
+		<p>&copy; <a href="mailto:1@1.1">1@1.1</a></p>
+		</div>
+</div>
+<!--footer end-->
+</body>
+</html>
